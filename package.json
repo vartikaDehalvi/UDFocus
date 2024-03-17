@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Photography Portfolio",
   "main": "server.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "start": "node server",
-    "server":" nodemon server"
+    "server": " nodemon server"
   },
   "keywords": [],
   "author": "vartika dehalvi",
@@ -14,6 +14,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.11",
+    "dotenv": "^16.4.5",
     "express": "^4.18.3",
     "express-validator": "^7.0.1",
     "gravatar": "^1.8.2",
